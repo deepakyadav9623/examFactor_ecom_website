@@ -1,12 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import WarningRightArrow from '../../assets/images/warning-right-arrow.svg';
-import PrimaryRightArrow from '../../assets/images/primary-right-arrow.svg';
-import RightArrow from '../../assets/images/right-arrow.svg';
 import ExamFactorEducation from '../../assets/images/home/images/examFactorEducation.svg';
 import ExamFactorBooks from '../../assets/images/home/images/examFactorBooks.svg';
 import ExamFactorOnlineLearning from '../../assets/images/home/images/examFactorOnlineLearning.svg';
-import ExamFactorOnlineTest from '../../assets/images/home/images/examFactorOnlineTest.svg';
 import { useSelector } from 'react-redux';
 import "./style.scss";
 import Footer from '../../components/Footer';

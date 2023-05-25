@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import BrowseCoupons from './BrowseCoupons';
-import CartHeader from './CartHeader'
 import EmptyCart from './EmptyCart';
 import Footer from '../../components/Footer'
 import Cart from './Cart';

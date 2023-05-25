@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, Link, useNavigate, useParams } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import ExamFactorLogo from "../assets/images/examFactor-logo.svg";
 import PrimaryRightArrow from "../assets/images/primary-right-arrow.svg";
 import RightArrow from "../assets/images/right-arrow.svg";
 import FormModal from "../pages/login/FormModal";
 import ForgotModal from "../pages/login/ForgotPassword";
 import SignupModal from "../pages/login/Signup";
-import { useDispatch, useSelector, connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { handleActiveTab } from "../redux/reducers/navigationSlice";
 import "./style.scss";
 import "../pages/login/style.scss";
@@ -23,9 +22,7 @@ import { logout } from "./../redux/reducers/loginSlice";
 import dropdownOptions from "./../assets/jsonData/productCatalog.json";
 
 
-function Header(props) {
-  // const [activeLink, setActiveLink] = useState('home');
-  const { userId } = useParams();
+function Header() {
   const navigateData = useNavigate();
   const dispatch = useDispatch();
   const selectorData = useSelector(
@@ -54,8 +51,9 @@ function Header(props) {
           dispatch(handleActiveTab("home"));
         }
         break;
+        default:
     }
-  }, [locationData]);
+  }, [locationData,dispatch]);
 
   const loggedOut = (e) => {
     // e.preventDefault();

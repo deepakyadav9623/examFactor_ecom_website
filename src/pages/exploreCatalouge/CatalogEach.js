@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 import RightArrow from '../../assets/images/right-arrow.svg';
 import PrimaryRightArrow from '../../assets/images/primary-right-arrow.svg';
 import Select from '../../components/select/SimpleSelect';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import './style.scss';
 import  dropdownOptions  from './../../assets/jsonData/productCatalog.json'
 import classData from '../../assets/jsonData/classData.json'
@@ -12,7 +12,7 @@ import FilterCatalog from './FilterCatalog';
 
 
 
-export default function CatalogEach(props) {
+export default function CatalogEach() {
 
 const {userId} = useParams();
 const {id} = useParams();
@@ -35,10 +35,6 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
     }
   }, [selectorData]);
 
-  const showFilterMenu = () =>{
-    // console.log("filter");
-    setShow(true);
-  } 
 
   function handleNavigation(itemData) {
     return (
@@ -46,10 +42,11 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
     <div>         
          {
          itemData.map((categoryWiseitems) => {
-                                 const item = categoryWiseitems.options.find(each => (each.id == userId));
+
+                                 const item = categoryWiseitems.options.find(each => (each.id === userId));
                                 //  console.log(categoryWiseitems && categoryWiseitems.assessments);
                                 //  console.log(categoryWiseitems && categoryWiseitems.assessments && categoryWiseitems.assessments.filter(name => name.id == userId).map(filteredName => (console.log("Filtered",filteredName))));
-                                 const assessment =    categoryWiseitems && categoryWiseitems.assessments && categoryWiseitems.assessments.find(each => (each.id == userId));
+                                 const assessment =    categoryWiseitems && categoryWiseitems.assessments && categoryWiseitems.assessments.find(each => (each.id === userId));
                                  if(assessment != null){
                                     return (
                                         <div key={assessment.id} id={`${assessment.id}`}className='px-3 col-12'>
@@ -76,7 +73,7 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
             
                                                           <div className='mt-30 date-assessment-outer'>
                                                         <div className='date'>
-                                                            <img src='/images/date_icon.png'/>
+                                                            <img src='/images/date_icon.png' alt=""/>
                                                             <span className='date-details'>
                                                                 <span>Starts on {assessment.startDate}</span>
                                                                 <span> {assessment.startDate} - july 24, 2022</span>
@@ -86,7 +83,7 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
             
             
                                                             <div className='assessment'>
-                                                            <img src='/images/assessment_icon.png'/>
+                                                            <img src='/images/assessment_icon.png' alt=""/>
                                                             <span>
                                                                 <span className='assessment-details'>{assessment.lessons} lessons, {assessment.tests} tests</span>
                                                                 
@@ -172,7 +169,7 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
 
                                               <div className='mt-30 date-assessment-outer'>
                                             <div className='date'>
-                                                <img src='/images/date_icon.png'/>
+                                                <img src='/images/date_icon.png' alt=""/>
                                                 <span className='date-details'>
                                                     <span>Starts on {listData.startDate}</span>
                                                     <span> {listData.startDate} - july 24, 2022</span>
@@ -182,7 +179,7 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
 
 
                                                 <div className='assessment'>
-                                                <img src='/images/assessment_icon.png'/>
+                                                <img src='/images/assessment_icon.png' alt=""/>
                                                 <span>
                                                     <span className='assessment-details'>{listData.lessons} lessons, {listData.tests} tests</span>
                                                     
@@ -236,7 +233,8 @@ const selectorData = useSelector((state) => state.rootReducer.navigationSlice.ac
                             
 
                         }
-                            })
+                            
+                      })
 
                         }
                             </div>

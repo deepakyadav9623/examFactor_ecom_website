@@ -2,7 +2,6 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/Home/';
-import ExploreCatalouge from './pages/exploreCatalouge/LandingPage';
 import './App.scss';
 import Header from './components/Header';
 import Hello from './pages/login/Hello';
@@ -33,7 +32,6 @@ function App() {
             <Route exact path="/about-us" element={<Hello />} />
             <Route exact path="/why-examfactor" element={<Hello />} />
             <Route exact path="/cart" element={<CartPage/>} />
-            {/* <Route exact path="/explore-catalouge" element={<ExploreCatalouge />} /> */}
             <Route exact path="/catalog/:id/:userId" element={<CatalogEach/>} />
             <Route exact path="/quicklinks/:id" element={<CatalogQuickLinks/>} />
             <Route exact path="/catalogue/:id" element={<ExploreCatalog/>} />

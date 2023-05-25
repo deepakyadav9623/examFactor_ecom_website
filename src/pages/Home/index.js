@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Footer from '../../components/Footer';
 import LandingPageMainImage from '../../assets/images/home/images/landingPageMainImage.svg';
-import RightArrow from '../../assets/images/right-arrow.svg';
 import CheckBoxChecked from '../../assets/images/home/images/landingPageMainCheckedCheckbox.svg';
 import ContactUs from './ContactUs';
 import LearningApp from './LearningApp';
@@ -19,7 +18,6 @@ export default function LandingPage() {
     const selectorData = useSelector((state) => state.rootReducer.navigationSlice.activeTab);
     const refElm = useRef(null);
     const [showModal, setShowModal] = useState(false);
-    const [showResetModal, setResetShowModal] = useState(false);
 
     const { contactUS, aboutUS, getLearningApp, learningWithExamFactor, indexContent } = HomePageData;
 
@@ -103,7 +101,6 @@ export default function LandingPage() {
                 setShowModal(false);
             }}
             show={showModal}
-            showReset={() => setResetShowModal(true)}
             signup={() => setShowSignupModal(true)}
         />}
 
