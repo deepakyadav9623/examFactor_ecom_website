@@ -1,0 +1,2071 @@
+[
+    {
+        "id": "CBSE",
+        "name": "CBSE",
+        "assessments": [],
+        "options": [
+          {
+            "id": "class-6",
+            "name": "Class - 6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 5,
+            "tests": 4,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 5,
+                "tests": 6,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 8,
+                "tests": 4,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 6,
+                "tests": 5,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "data:image/jpeg;base64,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"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 7,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://haiilo.com/wp-content/uploads/2022/05/effective-communication-overview.webp"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-7",
+            "name": "Class - 7",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 10,
+                "tests": 5,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 2,
+                "tests": 5,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 6,
+                "tests": 4,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 10,
+                "tests": 8,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-8",
+            "name": "Class - 8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-9",
+            "name": "Class - 9",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-10",
+            "name": "Class - 10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-11",
+            "name": "Class - 11",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "class-12",
+            "name": "Class - 12",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th July",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "parent":"CBSE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          }
+        ]
+      },
+      {
+        "id": "NTSE&frasl; Olympiad",
+        "name": "NTSE/ Olympiad",
+        "assessments": [],
+        "options": [
+          {
+            "id": "ntseOlympiad6",
+            "name": "Class - 6",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "NTSE Olympiad",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/IMO_logo.svg/1200px-IMO_logo.svg.png"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://www.edu.scientiatutorials.in/wp-content/uploads/2014/12/ntse.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid7",
+            "name": "Class - 7",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid8",
+            "name": "Class - 8",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid9",
+            "name": "Class - 9",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid10",
+            "name": "Class - 10",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid11",
+            "name": "Class - 11",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "ntseOlympaid12",
+            "name": "Class - 12",
+            "parent":"NTSE-Olympiad",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JEE",
+        "name": "JEE",
+        "assessments": [],
+        "options": [
+          {
+            "id": "jeeFoundation",
+            "name": "JEE Foundation",
+            "parent":"JEE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "JEE 2022",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://static.india.com/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-04-at-1.51.04-PM.jpeg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "jeeMains",
+            "name": "JEE Mains",
+            "parent":"JEE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "jeeAdvance",
+            "name": "JEE Advanced",
+            "parent":"JEE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "jeeMainsAdvanced",
+            "name": "JEE Mains + Advanced",
+            "parent":"JEE",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          }
+        ]
+      },
+      {
+        "id": "NEET",
+        "name": "NEET",
+        "assessments": [],
+        "options": [
+    
+          {
+            "id": "neet-1",
+            "name": "NEET",
+            "parent":"NEET",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "NEET 2022",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://aniportalimages.s3.amazonaws.com/media/details/hreghglihflvgkdrhfegs2022050910214420220509104608.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          },
+          {
+            "id": "neetFoundation",
+            "name": "NEET Foundation",
+            "parent":"NEET",
+            "submenu":false,
+            "options":[],
+            "assessments": [
+              {
+                "id": 1,
+                "testName": "Mathematics",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th January",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 2,
+                "testName": "English",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th July",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 3,
+                "testName": "Computer Science",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "14th August",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              },
+              {
+                "id": 4,
+                "testName": "Communication Skills",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                "startDate": "19th May",
+                "lessons": 3,
+                "tests": 3,
+                "cartAdded": false,
+                "classGroup": 12,
+                "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+    
+              }
+    
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CUET",
+        "name": "CUET",
+        "assessments": [],
+        "options": [
+          {
+            "id": "cuetCompulsary",
+            "name": "CUET - Compulsory",
+            "parent":"CUET",
+            "submenu":true,
+            "options": [
+              {
+                "id": "cuetEnglish",
+                "name": "English",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetGeneralTest",
+                "name": "General Test",
+                "parent":"CUET",
+                "submenu":true,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cuetScience",
+            "name": "CUET - Science",
+            "parent":"CUET",
+            "submenu":true,
+            "options": [
+              {
+                "id": "cuetPhysics",
+                "name": "Physics",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],            
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetChemistry",
+                "name": "Chemistry",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetBiology",
+                "name": "Biology",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetMathematics",
+                "name": "Mathematics",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cuetHumanities",
+            "name": "CUET - Humanities",
+            "parent":"CUET",
+            "submenu":true,
+            "options": [
+              {
+                "id": "cuetHistory",
+                "name": "History",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetPoliticalScience",
+                "name": "Political Science",
+                "options":[],
+                "parent":"CUET",
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetGeography",
+                "name": "Geography",
+                "parent":"CUET",
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetEconomics",
+                "name": "Economics",
+                "parent":"CUET",
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetPsychology",
+                "name": "Psychology",
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cuetCommerce",
+            "name": "CUET - Commerce",
+            "parent":"CUET",
+            "submenu":true,
+            "options": [
+              {
+                "id": "cuetCommerce1",
+                "name": "Commerce",
+                "parent":"CUET",
+                "submenu":false,
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              },
+              {
+                "id": "cuetBusinessStudies",
+                "name": "Business Studies",
+                "parent":"CUET",
+                "options":[],
+                "assessments": [
+                  {
+                    "id": 1,
+                    "testName": "Mathematics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th January",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 2,
+                    "testName": "English",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th July",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 3,
+                    "testName": "Computer Science",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "14th August",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  },
+                  {
+                    "id": 4,
+                    "testName": "Communication Skills",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+                    "startDate": "19th May",
+                    "lessons": 3,
+                    "tests": 3,
+                    "cartAdded": false,
+                    "classGroup": 12,
+                    "image": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg"
+        
+                  }
+        
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "NDA",
+        "name": "NDA",
+        "options": [
+         { 
+          "id": "nda",
+          "name":"NDA",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+          "parent":"NDA",
+          "submenu":false,
+          "startDate": "19th July",
+          "lessons": 5,
+          "tests": 4,
+          "cartAdded": false,
+          "options":[],
+          "assessments": [
+            {
+              "id": "nda",
+              "name":"NDA",
+              "testName": "NDA Assessment",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+              "startDate": "19th January",
+              "lessons": 3,
+              "tests": 3,
+              "cartAdded": false,
+              "classGroup": 12,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/IMO_logo.svg/1200px-IMO_logo.svg.png"
+      
+            }]}
+          
+        ],
+        "parent":"NDA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+        "submenu":false,
+        
+        "assessments": [
+          {
+            "id": "nda",
+            "name":"NDA",
+            "testName": "NDA Assessment",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+            "startDate": "19th January",
+            "lessons": 3,
+            "tests": 3,
+            "cartAdded": false,
+            "classGroup": 12,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/IMO_logo.svg/1200px-IMO_logo.svg.png"
+    
+          }]
+      }
+
+]

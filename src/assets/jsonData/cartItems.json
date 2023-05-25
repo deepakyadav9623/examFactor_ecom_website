@@ -1,0 +1,18 @@
+[
+    {
+        "id": 21,
+        "img": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "title": "CUET 2023 adaptive practice",
+        "price": 29950,
+        "content": "Personalized practice for every learner!",
+        "addonProduct": "e-book for detailed learning for ₹ 999.00"
+    },
+    {
+        "id": 22,
+        "img": "https://olc-wordpress-assets.s3.amazonaws.com/uploads/2019/12/Assessing-Across-Modalities.jpg",
+        "title": "IIT JEE - foundation & advanced",
+        "price": 12000,
+        "content": "Personalized practice for every learner!",
+        "addonProduct": "e-book for detailed learning for ₹ 99.00"
+    }
+]

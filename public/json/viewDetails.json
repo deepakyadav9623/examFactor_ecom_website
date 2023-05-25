@@ -1,0 +1,28 @@
+{
+    "id": "assessment999",
+    "img": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+    "heading": "Assessment 1",
+    "subHeading": "History of india",
+    "title": "Suspendisse augue nunc, blandit nec venenatis eu, tincidunt at velit. Ut vehicula sapien et nisl malesuada",
+    "content": "Rated #1 practice assessment to evaluate your skills",
+    "subContent": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut condimentum nibh. Sed congue efficitur felis, et condimentum quam mattis sed. Ut lacus neque, convallis bibendum ante id, finibus condimentum nisl.",
+        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "Aliquam lobortis rutrum quam nec accumsan. Nulla efficitur neque vitae purus suscipit hendrerit sed eu odio. Sed vitae diam sit amet massa lobortis dignissim."
+    ],
+    "whyExamFactor": [
+        "A Recognized and Respected Program",
+        "Work towards your goals",
+        "A Top CUET assessment for a breakthrough price",
+        "100% online - Hands-on learning & practice from anywhere",
+        "Got marks! We have special offers for you."
+    ],
+    "author": "Alex smith",
+    "organization": "Stanford university alumni",
+    "startDate": "19-07-2022",
+    "endDate": "24-07-2022",
+    "price": 119950,
+    "lession": 3,
+    "test": 3,
+    "addonProduct": "e-book for detailed learning for ₹ 99.00"
+}

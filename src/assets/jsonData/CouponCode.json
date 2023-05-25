@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "GRAB-25",
+        "description": "Big Sale - Get 25% off On total payable bill",
+        "discount": 25
+    },
+    {
+        "id": 2,
+        "title": "FLAT-50",
+        "description": "Big Sale - Get Half Price On Combo assessments",
+        "discount": 50
+    },
+    {
+        "id": 3,
+        "title": "FLAT-10",
+        "description": "New Year Sale - Get Low Price On Combo assessments",
+        "discount": 10
+    }
+]

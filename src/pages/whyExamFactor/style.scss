@@ -1,0 +1,36 @@
+.whyExamFactor {
+    .popular-test-data {
+        width: 6.25rem; // 100px
+        height: 6.25rem; // 100px
+        border-radius: 0.625rem; // 10px
+    }
+    .popularExams {
+        width: 3rem; // 48px
+        height: 3rem; // 48px
+    }
+    @media screen and (max-width: 767.9px) {
+        .examfactor-section {
+            border-color: transparent !important;
+        }
+    }
+}
+
+.row-wise-data{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    img{
+        width: 350px!important;
+        min-width:350px;
+        height: auto;
+        margin-right:40px;
+    }
+}
+.mt-160{
+    margin-top:160px!important;
+}
+
+
+.mb-160{
+    margin-bottom:160px!important;
+}

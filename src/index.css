@@ -1,0 +1,93 @@
+.btn-warning {
+  background-color: #F26D0C !important;
+  color: #fff !important;
+}
+
+.btn-warning:hover {
+  /* opacity: 0.9 !important; */
+  background-color: #0A1F44 !important;
+}
+
+.primary-blue {
+  color: #31569A !important;
+}
+
+.light-dark {
+  color: #171717 !important;
+}
+
+.dark-blue {
+  color: #0A1F44 !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.no-wrap {
+  white-space: nowrap !important;
+}
+
+.dark-black {
+  color: #3a3a3a !important;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+input {
+  accent-color: #6D7C8D !important;
+}
+
+.letter-spacing-32 {
+  letter-spacing: 0.32px !important;
+}
+
+.h-52 {
+  height: 3.25rem !important;
+  /* 52px */
+}
+
+.h-117 {
+  height: 7.313rem !important;
+  /* 117px */
+}
+
+.h-118 {
+  height: 7.375rem !important;
+  /* 118px */
+}
+
+.h-119 {
+  height: 7.438rem !important;
+  /* 119px */
+}
+
+.h-500 {
+  min-height: 31.25rem !important;
+  /* 500px */
+}
+
+.h-522 {
+  min-height: 32.625rem !important;
+  /* 522px */
+}
+
+.h-550 {
+  min-height: 34.375rem !important;
+  /* 550px */
+}
+
+.h-700 {
+  min-height: 43.75rem !important;
+  /* 550px */
+}
+
+.h-775 {
+  min-height: 48.438rem !important;
+  /* 775px */
+}

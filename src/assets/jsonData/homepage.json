@@ -1,0 +1,93 @@
+{
+    "indexContent": {
+        "heading": "India’s largest adaptive learning platform",
+        "content": "Unlimited access to 7,000+ world-class courses, hands-on projects, and job-ready certificate programs, for one all-inclusive subscription price"
+    },
+    "contactUS": {
+        "heading": "Contact us",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas semper at integer et. At aliquam tortor lectus commodo ut lectus sed fermentum. Cursus in tincidunt maecenas. Praesent feugiat dolor ipsum pharetra."
+    },
+    "aboutUS": {
+        "heading": "About us",
+        "content": {
+            "heading": "ExamFactor - Carving your academic excellence the AI way!",
+            "description":"A young kid dreamt of excelling in his academic endeavors!\n\nHe joined a nearby tuition class but the learnings didn’t reflect in the assessments at school.\n\nHis parent now supplemented the tuition with an online tutorial platform, but still, couldn't understand where the lag was.\n\nAnd this is where ExamFactor helps!\n\nPowered by a robust AI-based test engine, ExamFactor promises to offer a personalized learning journey for every student to ensure their learning needs are met without any compromises!\n\n"
+        }
+    },
+    "getLearningApp": {
+        "heading": "Get the learning app",
+        "content": "Download lessons and learn anytime, anywhere with the ExamFactor app."
+    },
+    "learningWithExamFactor": {
+        "heading": "Start learning with ExamFactor",
+        "content": "Get unlimited access to structured assessments & practice assessments",
+        "options": [
+            {
+                "id": "assessmentsCategories",
+                "text": "Assessments categories",
+                "count": "60+",
+                "color": "#E0F7E7"
+            },
+            {
+                "id": "assessmentsTaken",
+                "text": "Assessments taken",
+                "count": "3.2M+",
+                "color": "#D5FFFD"
+            },
+            {
+                "id": "dailyActiveUsers",
+                "text": "Daily active users",
+                "count": "1.2M+",
+                "color": "#FFEAEA"
+            },
+            {
+                "id": "educators",
+                "text": "Educators",
+                "count": "14K+",
+                "color": "#FFF4E1"
+            }
+        ]
+    },
+    "popularTestData": [
+        {
+            "id": "upsc",
+            "content": "UPSC CSE",
+            "image": "/images/icons/policeCarStreamlinehq.svg"
+        },
+        {
+            "id": "iitjee",
+            "content": "IIT JEE",
+            "image": "/images/icons/clampsbyStreamlinehq.svg"
+        },
+        {
+            "id": "neet",
+            "content": "NEET UG",
+            "image": "/images/icons/stethoscopebyStreamlinehq.svg"
+        },
+        {
+            "id": "cat",
+            "content": "CAT & More",
+            "image": "/images/icons/businessSuitcasebyStreamlinehq.svg"
+        },
+        {
+            "id": "bankExams",
+            "content": "Bank exams",
+            "image": "/images/icons/bankbyStreamlinehq.svg"
+        },
+        {
+            "id": "nda",
+            "content": "NDA & CDS",
+            "image": "/images/icons/rankArmyBadgebyStreamlinehq.svg"
+        },
+        {
+            "id": "ntse",
+            "content": "NTSE",
+            "image": "/images/icons/robotbyStreamlinehq.svg"
+        },
+        {
+            "id": "kvpy",
+            "content": "KVPY",
+            "image": "/images/icons/biochipbyStreamlinehq.svg"
+        }
+    ]
+}

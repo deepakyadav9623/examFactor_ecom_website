@@ -1,0 +1,145 @@
+.modal-body {
+    .login-container {
+        min-height:490px;
+        .line-style {
+            margin-top: 41px;
+            border: 1px solid #e2e2e2 !important;
+            height: 0 !important;
+            margin-bottom: 0 !important;
+            &.margin-top-95{
+                margin-top:95px;
+            }
+        }
+        .login-logo {
+            height: 2.188rem !important; // 35px
+            width: 2.188rem !important; // 35px
+        }
+        .login-btn {
+            max-width: 14.313rem !important; // 229px
+            height: 3.25rem !important; // 52px
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            margin-top: 30px;
+        }
+        .m-w-20 {
+            min-width: 1.25rem !important; // 20px
+        }
+        .m-h-500 {
+            max-height: 500px !important;
+        }
+        .h-118 {
+            height: 118px !important;
+        }
+        .mt-22 {
+            margin-top: 22px !important; // 22px
+        }
+        .mb-24 {
+            margin-bottom: 24px !important; // 24px
+        }
+        .h-70 {
+            height: 4.375rem !important; // 70px
+        }
+        .h-fit-content {
+            height: fit-content !important;;
+        }
+        .separator {
+            margin-top: 2.813rem !important; // 45px;
+            height: 1px;
+            background-color: #e2e2e2;
+        }
+        .ms-10 {
+            margin-left: 0.625rem !important; // 10px
+        }
+        .ms-18 {
+            margin-left: 1.125rem !important; // 18px
+        }
+        .max-w-90 {
+            max-width: 5.625rem !important; // 90px;
+        }
+    }
+}
+.m-w-607 {
+    max-width: 37.938rem !important; // 607px;
+}
+
+.p-40 {
+    padding: 2.5rem !important; // 40px 
+}
+.pt-56 {
+    padding-top: 3.5rem !important; // 56px
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+.form-control:focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.form-control {
+    border: 1px solid #6D7C8D !important;
+}
+
+.hover-border-none{
+    transition:none;
+        &:hover,&:focus{
+        border:none;
+        margin-right:1px;
+
+    }
+}
+.otp-send{
+    position:relative;
+    &.input-error{
+        border:none!important;
+        input{
+            border: 1px solid #E92C2C!important;
+        }
+    }
+    input{
+        padding-right:11.25rem;
+    }
+    .justify-content-end{
+        position:absolute;
+        right:0;
+    }
+}
+
+
+select{
+    &.form-select{
+        background-image: url(./../../assets/images/dropdown-arrow.png);
+        background-size:11px;
+    }
+}
+
+.h-368 {
+    height: 23rem !important; // 368px
+}
+
+.login-success{
+    text-align: center;
+    color:#2ecc71;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.disabled{
+    opacity:0.5;
+    pointer-events: none;
+    border:none;
+}
+
+.disabled-textbox{
+    opacity:0.5;
+    background:#fff;
+    pointer-events:none;
+}
+.text-danger{
+    position:absolute;
+}
+
+.forgot-password{
+    max-height:350px;
+}

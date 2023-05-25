@@ -1,0 +1,620 @@
+// .explore-catalouge-landing-container {
+//     .card-body {
+//         .max-w-480 {
+//             max-width: 100% !important;
+//         }
+//     }
+// }
+// img.w-100{
+//     max-width:480px;
+// }
+// .date-assessment-outer{
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     .date,.assessment{
+//         display: flex;
+//         align-items: center;
+//         padding-right:25px;
+//         img{
+//             margin-right:10px;
+//         }
+//     }
+//     .date-details{
+//         span{
+//             display: block;
+//             &:first-child{
+//                 font-weight: 700;
+//             }
+//         }
+//     }
+//     .assessment-details{
+//         font-weight: 700;
+//     }
+// }
+
+
+html,body{
+    min-height: 100%;
+}
+
+.assessment-cardList-container,
+.view-details-card-container {
+    row-gap: 30px;
+
+    .pr-30 {
+        padding-right: 30px !important;
+    }
+
+    img.h-100 {
+        max-height: 338px;
+    }
+
+    .card-style {
+        padding: 16px 26px 21px 19px;
+        border-color: #E2E2E2 !important;
+
+        .image-container {
+            margin: 2px 0;
+            max-width: 479px;
+            max-height: 338px;
+        }
+
+        .content-container {
+            .icon-elm {
+                height: 59px;
+                width: 59px;
+            }
+
+            .date-icon {
+                margin-right: 11px;
+            }
+
+            .lession-icon {
+                margin-right: 13px;
+            }
+
+            .gap-76 {
+                column-gap: 76px;
+            }
+
+            .add-to-cart {
+                margin-right: 10px;
+            }
+
+            .mx-22 {
+                margin-left: 22px;
+                margin-right: 22px;
+            }
+
+            .share-icon {
+                margin-right: 10px;
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+.view-details-card-container {
+    .content-holder {
+        border-bottom-color: #E2E2E2 !important;
+    }
+
+    .share-icon {
+        margin-left: 0 !important;
+    }
+}
+
+.view-details-container {
+    &.card-style {
+        border-color: #E2E2E2 !important;
+    }
+
+    .icon-elm {
+        height: 59px;
+        width: 59px;
+        margin-right: 11px;
+    }
+
+    .m-w-310 {
+        max-width: 310px !important;
+    }
+
+    .m-w-516 {
+        max-width: 516px !important;
+    }
+
+    .why-examFactor {
+        padding: 30px !important;
+        border-right: 1px solid #E2E2E2 !important;
+        // padding-top: 30px !important;
+        padding-right: 52px !important;
+    }
+
+    .about-assessment {
+        padding-top: 30px !important;
+        padding-left: 54px !important;
+        padding-right: 64px !important;
+    }
+
+    .product-details-section {
+        row-gap: 51px;
+        padding-left: 51px !important;
+        padding-top: 37px !important;
+        padding-bottom: 52px !important;
+        background-color: #f7f7f7;
+    }
+}
+
+img.w-100 {
+    max-width: 480px;
+}
+
+.date-assessment-outer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .date,
+    .assessment {
+        display: flex;
+        align-items: center;
+        padding-right: 25px;
+
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    .date-details {
+        span {
+            display: block;
+
+            &:first-child {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .assessment-details {
+        font-weight: 700;
+    }
+}
+
+.BreadcrumbsHeader {
+    margin-top: 120px;
+    padding: 15px 0;
+    background: #F7F7F7;
+
+    .catalogPageTitle {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #3A3A3A;
+        margin-bottom: 5px;
+    }
+
+    .filterBtnBox {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+
+        .filterBtn {
+            background: transparent !important;
+            border: 1px solid #31569A !important;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            font-weight: 600;
+            color: #31569A !important;
+
+            .filterIcon {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.catalogWrapper {
+    background: #FFFFFF;
+
+    .subjectHeading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+        color: #31569A;
+        margin: 50px 0 28px;
+    }
+
+    .subjectDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .viewAllButton {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: underline !important;
+        color: #F26D0C;
+        border: none;
+        background: none;
+    }
+}
+
+.allCategoriesWrapper {
+    background: #FFFFFF;
+
+
+
+    .subjectHeading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+        color: #31569A;
+        margin: 50px 0 28px;
+    }
+
+    .subjectDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .viewAllButton {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: underline !important;
+        color: #F26D0C;
+        border: none;
+    }
+
+}
+
+.subjectWrapper {
+    background: #FFFFFF;
+
+    .subjectHeading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+        color: #31569A;
+        margin: 50px 0 28px;
+    }
+
+    .subjectDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .viewAllButton {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: underline !important;
+        color: #F26D0C;
+    }
+}
+
+.subjectSliderWrapper {
+    .slick-slider {
+        padding: 0 1px;
+        margin: 0 -20px;
+
+        .slick-arrow {
+            &.slick-prev {
+                left: -30px;
+                transform: rotate(180deg);
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &.slick-next {
+                right: -30px;
+
+                &::before {
+                    display: none;
+
+                }
+            }
+            &.slick-disabled {
+                opacity: 0.5;
+            }
+        }
+
+        .slick-track {
+            margin: 0;
+            display: flex;
+            align-items: stretch;
+            align-self: stretch;
+        }
+
+        .slick-slide {
+            display: flex;
+            align-items: stretch;
+            align-self: stretch;
+            min-height: 100%;
+            float: none;
+            height: auto;
+            &> div{
+                display: flex;
+            }
+            .subjectSlide {
+                border-radius: 5px;
+                margin: 0 20px;
+                border: 1px solid #E2E2E2;
+                max-width: calc(100% - 40px);
+                padding: 2px;
+
+                [class~="card-img-top"] {
+                    object-fit: contain;
+                    height: 148px;
+                    width: 100%;
+                }
+
+                [class~="card-body"] {
+                    padding: 18px;
+                }
+
+                [class~="card-title"] {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #0A1F44;
+                    margin-bottom: 8px;
+                }
+
+                .assessmentDetail {
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #6D7C8D;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 18px;
+
+                    .assessmentIcon {
+                        margin-right: 5px;
+                    }
+                }
+
+                [class~="card-text"] {
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #3A3A3A;
+                }
+
+                .subjectExploreBtn {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #F26D0C !important;
+                    background: transparent !important;
+                    border: none !important;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        margin-left: 5px;
+                        margin-top: 3px;
+
+                    }
+                }
+
+                .assessmentTitle {
+                    h4 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: #0A1F44;
+                    }
+
+                    .dropstart {
+                        button {
+                            &::before {
+                                display: none;
+                            }
+                        }
+
+                        .dropdown-menu {
+                            min-width: max-content;
+                            padding: 5px;
+
+                            a {
+                                display: flex;
+                                padding: 0;
+                               &:focus-visible,
+                               &:hover,
+                               &:active {
+                                    background: #ffffff;
+                                    color: #0A1F44;
+                                }
+
+                                .shareIcon {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.assessmentSlider {
+                    .subjectPrice {
+                        margin-bottom: 26px;
+
+                        .subjectFees {
+                            font-weight: 600;
+                        }
+                    }
+
+                    .card-text {
+                        margin-bottom: 20px;
+                    }
+
+                    .btn-transparent {
+                        background-color: transparent !important;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 21px;
+                        text-align: center;
+                        color: #0A1F44 !important;
+                    }
+
+                    .cartBtn {
+                        border-color: #31569A;
+                        color: #0A1F44;
+                        border-width: 2px !important;
+                        width: 162px;
+                        &:hover,
+                        &:focus {
+                            border-color: #31569A !important;
+                        }
+                    }
+                    .buyBtn{
+                        width: 98px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+
+.filter-button{
+    position: absolute;
+    right: 89px;
+    border: solid 1px #31569A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #31569A;
+    font-weight: 600;
+    font-size: 14px;
+    img{
+        margin-right:5px;
+    }
+}
+.offcanvas{
+    width:380px!important;
+    .offcanvas-header,.offcanvas-body{
+        padding-left: 30px;
+    }
+    .offcanvas-header{
+        border-bottom: solid 1px #E2E2E2;
+        .offcanvas-title{
+            font-size: 24px;
+            font-weight: 500;
+            color: #31569A;    
+        }
+    }
+    .btn-close{
+        margin-right:10px;
+        background:url(../../../public/images/cross_icon.svg) no-repeat;
+        opacity: 1;
+        margin-top:10px;
+    }
+}
+.filter-row{
+    margin-bottom:25px;
+    &>div,label{
+        padding-left:0;
+    }
+    
+    &.button-row{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-left: -3px;
+        button{
+            width: 150px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 2.5!important;
+            &.btn-primary{
+                background-color: #F26D0C!important;
+                border: none!important;
+                margin-left: 15px;
+            }
+            &.btn-light{
+                color: #31569A;
+                border: solid 1px #31569A;
+                background: transparent;
+                &:hover{
+                    border: solid 1px #31569A!important;
+                }
+            }
+        }
+    }
+}
+
+select{
+    height:40px;
+    border-radius:4px;
+    border:solid 1px 
+    #6D7C8D!important;
+    width: calc(100% - 18px)!important;
+
+}
+
+.disable-select-option{
+    opacity:0.5;
+    pointer-events: none;
+}
+
+@media screen and (min-width:1280px){
+
+    .subjectWrapper .viewAllButton,.catalogWrapper .viewAllButton{
+        margin-right: -50px;
+        }
+
+        
+}
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+    .BreadcrumbsHeader,.header-container{
+        .container, .container-lg, .container-md, .container-sm, .container-xl ,
+        &.container, &.container-lg, &.container-md, &.container-sm, &.container-xl{
+            max-width: 1190px;
+        }
+    }
+    .subjectWrapper .viewAllButton,.catalogWrapper .viewAllButton{
+        margin-right: -50px;
+        }
+    }
+
+
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1300px;
+}
+
+
+.BreadcrumbsHeader,.header-container{
+    .container, .container-lg, .container-md, .container-sm, .container-xl ,
+    &.container, &.container-lg, &.container-md, &.container-sm, &.container-xl{
+        max-width: 1300px;
+    }
+}
+
+
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    padding-right: 0!important;
+}
+}
+

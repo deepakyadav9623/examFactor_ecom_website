@@ -1,0 +1,118 @@
+.browse-coupon.offcanvas.offcanvas-end {
+    width: 344px;
+}
+
+.browse-coupon.offcanvas {
+    background: #FFFFFF;
+
+    .offcanvas-header {
+        padding: 30px 20px 20px 30px !important;
+        border-bottom: 1px dashed #EEEEEE;
+
+        .offcanvas-title {
+            color: #31569A;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+
+    .offcanvas-body {
+        padding: 21.5px 20px;
+
+        .btn.apply-coupon {
+            border: 1px solid white;
+        }
+    }
+}
+
+.cart-items {
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    position: relative;
+
+    .cards.cart-item {
+        padding: 50px 30px 25px 30px;
+        border-bottom: 1px dashed #EEEEEE;
+
+        // &:not(:last-child)::after {
+        //     content: '';
+        //     display: block;
+        //     top: 280px;
+        //     display: block;
+        //     position: absolute;
+        //     width: 92%;
+        //     left: 30px;
+        //     border-bottom: 1px dashed #EEEEEE;
+
+        // }
+
+        // &::after {
+        //     content: '';
+        //     display: block;
+        //     top: 280px;
+        //     display: block;
+        //     position: absolute;
+        //     width: 92%;
+        //     left: 30px;
+        //     border-bottom: 1px dashed #EEEEEE;
+        // }
+    }
+}
+
+.summary {
+    border: 1px solid #E2E2E2;
+    padding: 40px 20.5px 30px 20.5px;
+    border-radius: 4px;
+    max-height: 616px;
+    min-width: 346px;
+}
+
+.apply-coupon-btn {
+    cursor: pointer;
+    top: 9px;
+    right: 9px;
+    background: #31569A;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: 500;
+    font-size: 11px;
+    height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+    &:disabled {
+        background: #b1b1b1;
+    }
+}
+
+
+
+
+.apply-coupon-btn:hover {
+    background-color: darkgray;
+}
+
+
+.recommend-products {
+    .recommend-item {
+        width: 50%;
+        height: 174px;
+        padding: 20px;
+        background: #FFFFFF;
+        border: 1px solid #E2E2E2;
+        border-radius: 5px;
+    }
+}
+
+.text-orange {
+    color: #F26D0C;
+}
+
+.errorBorder {
+    border-color: red !important;
+}
+
+.cartMainContainer .filterBtnBox {
+    display: none;
+}

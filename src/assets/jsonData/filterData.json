@@ -1,0 +1,48 @@
+{
+  "examdropdown":
+[
+    {
+      "value": "Select",
+      "label": "Select",
+      "grades":[],
+      "products":[],
+      "subjects":[]
+    },
+    {
+      "value": "cbse",
+      "label": "CBSE",
+      "grades":
+      [
+          {
+            "value": "class-6",
+            "label": "Class 6",
+            "products":[{
+              "label":"General",
+              "Subjects":[{
+                "label":"Science"
+              },
+              {
+                "label":"Social Science"
+              },
+              {
+                "label":"Mathematics"
+              },
+              {
+                "label":"English"
+              }
+            ]
+            }]
+          }
+        ]
+    }
+
+    ]
+
+
+
+  
+
+
+}
+
+

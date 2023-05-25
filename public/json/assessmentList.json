@@ -1,0 +1,41 @@
+[
+    {
+        "id": "assessment1",
+        "img": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "heading": "Assessment 1",
+        "title": "consectetur adipiscing elit",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+        "startDate": "19-07-2022",
+        "endDate": "24-07-2022",
+        "price": "119950",
+        "lession": 3,
+        "test": 3,
+        "addonProduct": "e-book for detailed learning for ₹ 199.00"
+    },
+    {
+        "id": "assessment2",
+        "img": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "heading": "Assessment 2",
+        "title": "Pellentesque tincidunt libero eget ante sodales",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+        "startDate": "19-07-2022",
+        "endDate": "24-07-2022",
+        "price": "119950",
+        "lession": 3,
+        "test": 3,
+        "addonProduct": "e-book for detailed learning for ₹ 299.00"
+    },
+    {
+        "id": "assessment3",
+        "img": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "heading": "Assessment 3",
+        "title": "eget sollicitudin est bibendum. Proin sit amet neque tincidunt",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt libero eget ante sodales, eget sollicitudin est bibendum. Proin sit amet neque tincidunt, elementum dolor vel, euismod erat.",
+        "startDate": "19-07-2022",
+        "endDate": "24-07-2022",
+        "price": "119950",
+        "lession": 3,
+        "test": 3,
+        "addonProduct": "e-book for detailed learning for ₹ 99.00"
+    }
+]

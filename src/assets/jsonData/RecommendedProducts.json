@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "image": "https://yt3.ggpht.com/ytc/AMLnZu8T6HXxZgCiRP-qmmI7V4IcGhpiGpqbyhy3PAThJQ=s900-c-k-c0x00ffffff-no-rj",
+        "title": "CBSE - Class 11 Chemistry",
+        "description": "Try our CBSE Class 11 chemistry sessions for IIT Pre foundation",
+        "price": "₹99.99"
+    },
+    {
+        "id": 2,
+        "image": "https://media-exp1.licdn.com/dms/image/C4D05AQEhXuJf1x-s7A/videocover-high/0/1632643988159?e=2147483647&v=beta&t=ikEKwPzUl37gnOxKQIjSAx6OCX04bre5iELQOtzX9Ak",
+        "title": "English - Practice Session",
+        "description": "Try our free IELTS english practice sessions.",
+        "price": "Free"
+    }
+]
