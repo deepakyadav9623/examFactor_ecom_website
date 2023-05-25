@@ -6,7 +6,6 @@ import RecommendedProducts from "../../assets/jsonData/RecommendedProducts.json"
 import { useDispatch, useSelector } from 'react-redux';
 import { handleAddToCart } from '../../redux/reducers/cartSlice';
 
-import { height } from '@mui/system';
 
 const RecommendProducts = () => {
     const selectorData = useSelector((state) => state.rootReducer.cartSlice);
